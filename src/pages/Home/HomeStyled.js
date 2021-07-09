@@ -55,8 +55,8 @@ export const DetailSection = styled.div`
     }
     p{
         text-align: justify;
-        margin-top: 15px;
-        font-size: 15px;
+        margin-top: 20px;
+        font-size: 16px;
     }
     .text-details{
         padding: 20px 50px;
@@ -67,6 +67,20 @@ export const DetailSection = styled.div`
 
         }
     }
+    button{
+            border: none;
+            border-radius: 3px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            color: #ffffff;
+            background: #1c3988;
+            transition: all 0.3s ease;
+            padding: 13px 32px;
+            margin-top: 28px;
+        }
 
 `
 
@@ -132,3 +146,55 @@ export const DetailSecondSection = styled.div`
     }
 
 `
+
+export const MiniDetails = styled.div`
+    margin-top: 30px;
+    display: flex;
+    img{
+        width: 70px;
+        max-width: none;
+        height: 70px;
+        
+    }
+    
+    .mini-details-text{
+        padding-left: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    
+`
+
+export const PartnersContainer = styled.div`
+    min-height: 200px;
+    background: #1c3988;
+    display: flex;
+    text-align:center;
+    
+    flex-direction: column;
+    h2{
+        padding-top: 20px;
+        color:white;
+    }
+
+    
+`
+
+export const CompanyImage = styled.div`
+    padding: 20px;
+    display: flex;
+    overflow-x:auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    
+    img{
+        width: 180px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+`
+
+
+
